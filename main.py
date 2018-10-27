@@ -50,8 +50,8 @@ class Creature:
         for other in overlapping:
             dist = self.distance(other.x, other.y)
             if dist:
-                ddx += - int(3 * (other.x - self.x) / dist)
-                ddy += - int(3 * (other.y - self.y) / dist)
+                ddx -= 3 * (other.x - self.x) / dist
+                ddy -= 3 * (other.y - self.y) / dist
 
         self.dx += ddx
         self.dy += ddy
