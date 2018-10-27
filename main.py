@@ -58,9 +58,9 @@ class Creature:
 
         # Maximum speed:
         if abs(self.dx) > 7:
-            self.dx *= 7 // abs(self.dx)
+            self.dx *= 7 / abs(self.dx)
         if abs(self.dy) > 7:
-            self.dy *= 7 // abs(self.dy)
+            self.dy *= 7 / abs(self.dy)
 
 
     def draw(self, screen):
