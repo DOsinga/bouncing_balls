@@ -7,3 +7,5 @@ You might have trouble with `libspatialindex`, which is required by  `r-tree` bu
 
 R-Tree is a nice implementation of spatial indexes in Python, while PyGame isn't a bad choice to show visualizations of
 for example simulations.
+
+![](balls.gif)
